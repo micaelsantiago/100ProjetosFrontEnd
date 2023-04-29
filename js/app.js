@@ -1,5 +1,5 @@
 const projects = [
-	{image: './images/project1.png', title: 'Página de Cadastro', description: 'Desenvolva uma simples página de cadastro usando HTML e CSS!', url: ''}
+	{image: './images/project1.png', title: 'Página de Cadastro', description: 'Desenvolva uma simples página de cadastro usando HTML e CSS!', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project1'}
 ];
 
 const container = document.querySelector('.projectsContainer');
