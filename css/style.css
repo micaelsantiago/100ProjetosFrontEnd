@@ -1,0 +1,40 @@
+h1 {
+	font-size: 1.5rem;
+}
+
+main {
+	min-height: 100vh;
+}
+
+h3 span {
+	color: var(--colorPrimary);
+}
+
+.header,
+.footer {
+	padding: 1rem;
+	text-align: center;
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.projectsContainer .project {
+	width: 100%;
+}
+
+.projectsContainer .projectImage img {
+	width: 100%;
+}
+
+.projectsContainer .projectDescription {
+	margin: 10px 0;
+}
+
+.projectsContainer .projectLink a {
+	color: var(--colorPrimary);
+}
