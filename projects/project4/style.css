@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serifs;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: url('./images/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	max-width: 750px;
+	height: 300px;
+	font-size: 27px;
+	font-weight: bold;
+	text-transform: uppercase;
+	backdrop-filter: blur(16px) saturate(180%);
+	background: rgba(255, 255, 255, 0.2);
+	color: rgb(230, 230, 232);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+}
