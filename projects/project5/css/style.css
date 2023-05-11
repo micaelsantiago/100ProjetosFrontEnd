@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.todo__title {
+    text-align: center;
+}
+
+.todo__searchArea {
+    border: 1px solid #000;
+    display: flex;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.todo__searchIcon {
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    border-right: 1px solid #00000062;
+}
+
+.todo__searchIcon:hover {
+    background-color: #EEE;
+}
+
+.todo__searchInput {
+    flex: 1;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.todo__searchInput::placeholder {
+    color: #444;
+}
+
+.todo__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo__listItem {
+    border: 1px solid #00000062;
+    line-height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo__listCheck .check {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    color: #EEE;
+    margin: 0 10px;
+    border: 1px solid #AAA;
+    border-radius: 4px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+    cursor: pointer;
+    user-select: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.todo__listCheck .check:hover {
+    color: #CCC;
+    background-color: #CCC;
+}
+
+.todo__listCheck .input {
+    display: none;
+}
+
+.todo__listCheck .input:checked ~ .check {
+    color: #FFF;
+    background-color: #2196F3;
+}
