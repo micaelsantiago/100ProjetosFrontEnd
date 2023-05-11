@@ -2,7 +2,8 @@ const projects = [
 	{image: './images/project1.png', title: 'Página de Cadastro', description: 'Desenvolva uma simples página de cadastro usando HTML e CSS!', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project1'},
 	{image: './images/project2.png', title: 'Página de Login', description: 'Desenvolva uma simples página de login usando HTML e CSS!', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project2'},
 	{image: './images/project3.png', title: 'Cronômetro', description: 'Crie um cronômetro usando JavaScript puro.', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project3'},
-	{image: './images/project4.png', title: 'Glassmorphism', description: 'Crie o efeito de Glassmorphism usando CSS puro.', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project4'}
+	{image: './images/project4.png', title: 'Glassmorphism', description: 'Crie o efeito de Glassmorphism usando CSS puro.', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project4'},
+	{image: './images/project5.png', title: 'Todo List', description: 'Crie uma lista de tarefas funcional com HTML, CSS e JavaScript.', url: 'https://github.com/micaelsantiago/100ProjetosFrontEnd/tree/main/projects/project5'}
 ];
 
 const container = document.querySelector('.projectsContainer');
