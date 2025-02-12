@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Consulta de CEP</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Consulta de CEP</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+        <form id="cepForm">
+            <label for="cep">Digite o CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="Ex: 01001-000" required>
+            <button type="submit">Consultar</button>
+        </form>
+
+        <div id="result" class="result">
+            <!-- Resultado será exibido aqui -->
+        </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
