@@ -22,7 +22,9 @@ a {
 .container .containerLeft {
   width: 100vw;
   height: 100vh;
-  background: #4e81c9;
+  background-image: linear-gradient(#021543ca, #8400ffc3), url('https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_10_Open_Source_Technologies_for_2022.jpg');
+  background-position: center;
+  background-size: cover	;
 }
 
 .container .containerRight {
@@ -35,7 +37,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  border-radius: 16px;
+  border-radius: 6px;
 }
 
 .container .containerRight h1 {
@@ -66,7 +68,7 @@ a {
 	width: 100%;
 	margin-top: 1rem;
 	padding: .75rem;
-	background: #6b9ee5;
+	background: #0862e1;
 	border-radius: 6px;
 	border: 0;
 	color: #FFF;

@@ -10,7 +10,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: #FF6354;
+	background: #ff7b00;
 	font-family: Monospace, sans-serif;
 	color: #111
 }
@@ -22,7 +22,7 @@ body {
 	width: 80vw;
 	max-width: 450px;
 	padding: 30px;
-	border-radius: 10px
+	border-radius: 6px
 }
 
 .card_cadastro h2 {
@@ -32,7 +32,7 @@ body {
 .card_cadastro .bar {
 	width: 40px;
 	height: 2px;
-	background: #FF6354
+	background: #ff7b00
 }
 
 .card_cadastro label {
@@ -42,16 +42,16 @@ body {
 .card_cadastro input {
 	padding: 10px;
 	border: none;
-	border: 1px solid #FF6354;
-	border-radius: 10px
+	border: 1px solid #ff7b00;
+	border-radius: 6px
 }
 
 .card_cadastro button {
 	margin: 30px 0 10px;
 	padding: 10px;
 	border: none;
-	border-radius: 10px;
-	background: #FF6354;
+	border-radius: 6px;
+	background: #ff7b00;
 	color: #FFF;
 	cursor: pointer;
 	text-transform: uppercase
